@@ -10,6 +10,7 @@ function Carousel(props) {
 
   const clickNext = () => {
     setCurrent(current === catArray.length - 1 ? 0 : current + 1);
+    s;
   };
   const clickPrevious = () => {
     setCurrent(current === 0 ? catArray.length - 1 : current - 1);
