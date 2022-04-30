@@ -1,0 +1,21 @@
+.Carouselimage {
+  background-size: cover;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  max-height: 300px;
+  border-radius: 0.3rem;
+  margin: 0.5rem;
+}
+
+.Carouselimage > img {
+  border-radius: 0.3rem;
+  transition: box-shadow 1s;
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
+
+.Carouselimage:hover > img {
+  transition: 1s;
+  box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
