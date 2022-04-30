@@ -4,7 +4,7 @@ import Carousel from "./Carousel";
 function CatCarouselPage() {
   const [catResponse, setCatResponse] = useState([]);
 
-  const amount = 3;
+  const amount = 4;
 
   useEffect(() => {
     fetch(`https://api.thecatapi.com/v1/images/search?limit=${amount}`)
