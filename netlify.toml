@@ -1,2 +1,0 @@
-  [BUILD]
-  command = "CI= npm run build"
