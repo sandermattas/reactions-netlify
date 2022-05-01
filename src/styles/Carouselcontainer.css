@@ -1,5 +1,6 @@
 .Carouselcontainer {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .Carouselcontainer > button {
