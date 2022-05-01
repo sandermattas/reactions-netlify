@@ -1,9 +1,5 @@
 import "./styles/App.css";
 import "./components/InputBox";
-import InputBox from "./components/InputBox";
-import Counter from "./components/Counter";
-import Caturday from "./components/Caturday";
-import Carousel from "./components/Carousel";
 import CatCarouselPage from "./components/CatCarouselPage";
 
 // Have the Carousel coponent not give a shit about API's at all
